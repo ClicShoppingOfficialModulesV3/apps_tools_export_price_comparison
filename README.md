@@ -34,7 +34,7 @@ http://monsite/myAdmin/index.php?A&Tools\ExportPriceComparison
 Activate the module in Tools
 
 More Informations on Marketplace
-link : https://www.clicshopping.org/forum/files/file/33-apps-tools-export-price-comparator/
+link : https://www.clicshopping.org/forum/files/file/58-apps-tools-export-price-comparator/
 
 ![export](https://github.com/ClicShoppingOfficialModulesV3/apps_tools_export_price_comparison/blob/master/ModuleInfosJson/export.png)
 
