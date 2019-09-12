@@ -20,6 +20,7 @@ ciao
 
 You can add all elements than you want to export in other website.
 You also can manage with Quick update or inside tha product administration to allow or not an export
+For google, the taxonomy is included
 
 Important Note :
 
