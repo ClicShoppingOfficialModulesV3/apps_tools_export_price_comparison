@@ -1,0 +1,80 @@
+heading_title = Price Comparison
+module_wo_title = Price Comparison
+module_wo_short_title = Price Comparison
+
+text_export_price_comparison = Price Comparison
+text_configure =  configure App Module
+
+text_intro = This app allow you to include an price comparison export form. <br /><br />
+- Click on Configure to access / install or uninstall the app.<br />
+- The App is located in Tools / Export<br />
+
+module_wo_introduction = The install process create the database settings for this module and the access menu
+
+button_back = Back
+button_install_title = Install
+button_configure = Configure
+button_save = Save
+button_dialog_uninstall =  Uninstall
+button_uninstall =  Uninstall
+button_delete = Delete
+button_cancel = Cancel
+button_export_price_comparison = Price comparison
+button_reset = Reset
+button_analyse = Analyse
+button_update = Update
+
+dialog_uninstall_title = Uninstall
+dialog_uninstall_body = Do you want to install this App ?
+dialog_uninstall_title = Uninstall Module?
+dialog_uninstall_body = Are you sure you want to uninstall this module?
+
+alert_module_install_success = Module has been successfully installed.
+alert_module_uninstall_success = Module has been successfully uninstalled.
+alert_cfg_saved_success = Configuration parameters have been successfully saved.
+
+text_result_page = Page {{listing_from}} of {{listing_total}}
+text_display_number_of_link = Display <strong>{{listing_from}}</strong> to <strong>{{listing_to}}</strong> (on <strong>{{listing_total}}</strong>)
+
+text_title_export = Form of export configuration
+comparateur_select = Format:
+comparateur_lng = Language:
+comparateur_code = Secure code:
+comparateur_cache = Use cache file ?
+comparateur_oui = Yes
+comparateur_non = No
+comparateur_secu = Put cache file in secure dir ?
+comparateur_fichier = Cache filename:
+comparateur_oblig = <span style="color:#FF0000">You must fill this input if you use cache file</span>
+comparateur_tax = Include the tax ?
+comparateur_ean = Include bar code ?
+
+comparateur_champ = Free field, save for example <strong><i>"?id=1"</i></strong> to add this parameter in urls exported. No verification is done
+comparateur_url = Url to copy in the address bar of your browser to generate the file or see the script or to give your integrator
+comparateur_select_export = Select your export
+
+
+title_help_export_image = Help
+title_help_export = Informations on export
+text_help_export = This system will allow you to make different types of exports, price comparison, products .....<br /><br /><strong><u>Our advices </u></strong><br />
+<blockquote>
+<li><p style="color:#FF0000;"> * </p> are our tips to follow for proper use of this tool. They apply to most configurations. </li> <li> We advise you save the file on the server and well remember his name if you have a large quantity of product.
+<li> If you have a product range over 100 products, it will generate a file. Some options will be removed from this quota reached </li>
+<blockquote>
+- The creation of the file involves a mounted server load important. <br /> - The ideal practice is to have the same name as the export selected. <br /> (eg price comparison guide.com xml ===> filename: le_guidecom.xml or <br /> Kelkoo price comparison xml ===> filename: kelkoo.xml). <br /> The syntax will make it easy to generate a new file overwriting the old and update your data. <br /> - This procedure will be to achieve each time you change your data so that your file is always updated <br /> - Saving the file on the server is important because it will allow the server to retrieve information more easily without requiring resources to the server. <br />
+- The options and fields are not taken into account now. <br />
+- If you excluded this product will not be included in the export of products <br />
+</blockquote>
+<li>
+if you do not create a file and you generate the file directly (onset of flow xml in your browser). The record must be in xml. (eg export_price_comparison.php in kelkoo.xml) <br />
+<li> We <u> strongly advise you</u><strong> also use the security system </strong> that is available. If the requested information should be accessible via the web browser, please do not use this security solution. </Li>
+<li> URL is created to copy and give to the different price comparison or external servers.</li>
+<br />
+<li>how to access your file from a URL and download</li>
+<blockquote>
+- Address securely accessible via the browser : {{url_secure}}<br />-
+address unsecured accessible via the browser : {{url}}<br />
+<strong>- These URLs to access the files do not disclose to anyone !</strong>
+</blockquote>
+
+text_error_directory_writeable = The Directories must be in 777 <br />

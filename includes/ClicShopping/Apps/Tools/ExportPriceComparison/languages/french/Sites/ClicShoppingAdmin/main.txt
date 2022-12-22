@@ -1,0 +1,77 @@
+heading_title = Comparateur de prix
+module_wo_title =  Comparateur de prix
+module_wo_short_title =  Comparateur de prix
+
+text_export_price_comparison = Comparateur de prix
+text_configure =  Configurer App Module
+
+text_intro = Cette app vous permet d'accéder à un fomulaire d'export de comparateur de prix en ligne<br /><br />
+- Cliquez sur configurer pour accéder à l'installation ou la désinstallation l'app.<br />
+- Cette app est dans le menu Outils / Export<br />
+
+module_wo_introduction = Le processus d'installation crée la base de données et le menu pour ce module
+
+button_install_title = Installer
+button_configure = Configurer
+button_save = Sauver
+button_dialog_uninstall =  Désinstaller
+button_uninstall =  Désinstaller
+button_delete = Supprimer
+button_cancel = Annuler
+button_export_price_comparison = Comparateur de prix
+button_reset = Reset
+button_analyse = Analyser
+button_update = Mettre à jour
+
+dialog_uninstall_title = Désinstaller
+dialog_uninstall_body = Souhaitez-vous installer cette App ?
+dialog_uninstall_title = Désinstaller le module?
+dialog_uninstall_body = Etes vous sur de désinstaller ce module?
+
+alert_module_install_success = Le module a été installée.
+alert_module_uninstall_success = Le module a été désinstallée.
+alert_cfg_saved_success = les paramètres de configuration ont été mises à jour.
+
+text_result_page = Page {{listing_from}} sur {{listing_total}}
+text_display_number_of_link = Affiche <strong>{{listing_from}}</strong> à <strong>{{listing_to}}</strong> (sur <strong>{{listing_total}}</strong>)
+
+text_title_export = Formulaire de configuration des exportations
+comparateur_select = Veuillez sélectionner votre format
+comparateur_lng = Veuillez sélectionner votre langue
+comparateur_code = Veuillez inérer un code de sécurité pour l'accès au fichier :
+comparateur_cache = Souhaitez vous créer un fichier sur le serveur ?
+comparateur_oui = Oui
+comparateur_non = Non
+comparateur_secu = Souhaitez vous placer le fichier dans un répertoire sécurisé ?
+comparateur_fichier = Veuillez indiquer le nom du fichier qui sera généré avec son extension (monfichier.xml ou .csv ou .txt)
+comparateur_oblig = <span style="color:#FF0000">Champ obligatoire si vous souhaitez créer un fichier sur le serveur</span>
+comparateur_tax = Inclure les taxes ?
+comparateur_ean = Inclure le code barre ?
+comparateur_champ = Champ libre permettant d'améliorer la sécurité, exemple <strong><i>"?id=1"</i></strong>. Aucune vérification n'est effectuée
+comparateur_url = Url &agrave recopier dans la bar d'adresse de votre navigateur pour générer le fichier ou voir le script ou à donner à votre intégrateur :
+comparateur_select_export = Sélectionner votre format d'exportation :
+
+
+title_help_export_image = Aide
+title_help_export = Informations les exportations
+text_help_export = Ce système va vous permettre de réaliser différents types d'exportation, comparateurs de prix, clients,produits .....<br /><br />
+  <u><strong>nos conseils</strong></u><br />
+  <blockquote>
+  <li>les <p style="color:#FF0000;">*</p> sont nos conseils à suivre pour une bonne utilisation de cet outil. Ils s'appliquent à la plupart des configurations.</li><li>Nous vous conseillons de stocker le fichier sur le serveur et de bien mémoriser son nom si vous avez une quantité importante de  produit.
+  <li>si vous avez une gamme de plus de 100 produits, il faudra générer un fichier. Certaines options seront alors supprimées dés ce quota atteint</li>
+  <blockquote>
+  - La création du fichier implique une monté en charge du serveur importante.<br />- La pratique idéale est d'avoir le même nom que l'exportation sélectionnée. <br />  (ex :  Comparateur de prix le guide.com xml ===> nom du fichier : le_guidecom.xml ou <br />  Comparateur de prix kelkoo xml ===> nom du fichier : kelkoo.xml).<br />Cette synthaxe vous permettra facilement de générer un nouveau fichier en écrasant l'ancien et de tenir à jour vos données.<br />- Cette procédure sera à réaliser à chaque fois que vous modifierez vos données pour que votre fichier soit toujours actualisé<br />- L'enregistrement du fichier sur le serveur est importante car elle permettra au serveur distant de récupérér plus facilement vos informations sans demander de ressources au serveur.<br />
+  - Les options et les champs supplémentaires ne sont pas pris en compte actuellement.<br />
+  - Si vous avez des produits exlus ceci ne seront pas inclus dans l'exportation des produits<br />
+  </blockquote>
+  <li>si vous ne créez pas de fichier et que vous générer directement le fichier (apparition du flux xml dans votre navigateur). L'enregistrement du fichier doit être en xml. (ex : export_price_comparison.  en kelkoo.xml)<br />
+  <li>nous vous <u>conseillons fortement</u> aussi d'utiliser <strong>le système de sécurisation</strong> qui est mis à votre disposition. Si l'information demandée doit être accessible via le navigateur web, veuillez ne pas utiliser cette solution de sécurisation.</li>
+  <li>l'url créée est à copier et à donner aux différents comparateurs de prix ou serveurs externes.</li>
+  <br />
+  <li> Comment accéder à votre fichier depuis une adresse URL et le télécharger</li>
+  <blockquote>- Adresse sécurisée accessible via le navigateur :{{url_secure}}<br />-
+  - Adresse non sécurisée accessible via le navigateur : ' {{url}}<br />
+  <strong>- Ces adresses URL pour accéder aux fichiers ne sont pas à divulguer à n'importe qui !</strong>
+  </blockquote>
+
+text_error_directory_writeable = Les répertoires doivent être en 777 <br />

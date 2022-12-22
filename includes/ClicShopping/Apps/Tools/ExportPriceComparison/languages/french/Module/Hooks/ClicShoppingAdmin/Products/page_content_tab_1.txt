@@ -1,0 +1,3 @@
+text_products_price_comparison = Comparateur de prix
+text_products_price_comparison_yes = Oui
+text_products_price_comparison_no = Non

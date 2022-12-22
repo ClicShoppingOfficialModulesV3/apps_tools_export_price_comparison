@@ -1,0 +1,2 @@
+cfg_export_price_comparison_sort_order_title = ordre de tri
+cfg_export_price_comparison_sort_order_description = Ordre de tri pour l'affichage (Le plus petit nombre est montré en premier)
